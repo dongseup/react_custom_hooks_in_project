@@ -1,14 +1,18 @@
 import UseToggle from './hooks/useToggle';
 import UseTimeout from './hooks/useTimeout';
+import UseDebounce from './hooks/useDebounce';
 
 function App() {
     return (
         <>
-            <h1>use toggle</h1>
+            <h1>usetoggle</h1>
             <UseToggle />
             <br />
-            <h2>use timeout</h2>
+            <h1>usetimeout</h1>
             <UseTimeout />
+            <br />
+            <h1>useDebounce</h1>
+            <UseDebounce />
         </>
     );
 }
