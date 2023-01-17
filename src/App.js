@@ -1,4 +1,5 @@
 import UseToggle from './hooks/useToggle';
+import UseTimeout from './hooks/useTimeout';
 
 function App() {
     return (
@@ -6,6 +7,8 @@ function App() {
             <h1>use toggle</h1>
             <UseToggle />
             <br />
+            <h2>use timeout</h2>
+            <UseTimeout />
         </>
     );
 }
