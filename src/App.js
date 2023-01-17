@@ -1,6 +1,7 @@
 import UseToggle from './hooks/useToggle';
 import UseTimeout from './hooks/useTimeout';
 import UseDebounce from './hooks/useDebounce';
+import UseUpdateEffect from './hooks/useUpdateEffect';
 
 function App() {
     return (
@@ -13,6 +14,9 @@ function App() {
             <br />
             <h1>useDebounce</h1>
             <UseDebounce />
+            <br />
+            <h1>useUpdateEffect</h1>
+            <UseUpdateEffect />
         </>
     );
 }
