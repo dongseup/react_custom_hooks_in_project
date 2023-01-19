@@ -3,6 +3,7 @@ import UseTimeout from './hooks/useTimeout';
 import UseDebounce from './hooks/useDebounce';
 import UseUpdateEffect from './hooks/useUpdateEffect';
 import UseArray from './hooks/useArray';
+import UsePrevious from './hooks/usePrevious';
 
 function App() {
     return (
@@ -21,6 +22,9 @@ function App() {
             <br />
             <h1>useArray</h1>
             <UseArray />
+            <br />
+            <h1>usePrevious</h1>
+            <UsePrevious />
         </>
     );
 }
