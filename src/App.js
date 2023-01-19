@@ -2,6 +2,7 @@ import UseToggle from './hooks/useToggle';
 import UseTimeout from './hooks/useTimeout';
 import UseDebounce from './hooks/useDebounce';
 import UseUpdateEffect from './hooks/useUpdateEffect';
+import UseArray from './hooks/useArray';
 
 function App() {
     return (
@@ -17,6 +18,9 @@ function App() {
             <br />
             <h1>useUpdateEffect</h1>
             <UseUpdateEffect />
+            <br />
+            <h1>useArray</h1>
+            <UseArray />
         </>
     );
 }
