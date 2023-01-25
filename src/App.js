@@ -4,6 +4,7 @@ import UseDebounce from './hooks/useDebounce';
 import UseUpdateEffect from './hooks/useUpdateEffect';
 import UseArray from './hooks/useArray';
 import UsePrevious from './hooks/usePrevious';
+import UseStateWithHistory from './hooks/useStateWithHistory';
 
 function App() {
     return (
@@ -25,6 +26,9 @@ function App() {
             <br />
             <h1>usePrevious</h1>
             <UsePrevious />
+            <br />
+            <h1>useStateWithHistory</h1>
+            <UseStateWithHistory />
         </>
     );
 }
