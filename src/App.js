@@ -5,6 +5,7 @@ import UseUpdateEffect from './hooks/useUpdateEffect';
 import UseArray from './hooks/useArray';
 import UsePrevious from './hooks/usePrevious';
 import UseStateWithHistory from './hooks/useStateWithHistory';
+import UseStorage from './hooks/useStorage';
 
 function App() {
     return (
@@ -29,6 +30,9 @@ function App() {
             <br />
             <h1>useStateWithHistory</h1>
             <UseStateWithHistory />
+            <br />
+            <h1>useStorage</h1>
+            <UseStorage />
         </>
     );
 }
