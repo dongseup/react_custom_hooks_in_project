@@ -7,6 +7,7 @@ import UsePrevious from './hooks/usePrevious';
 import UseStateWithHistory from './hooks/useStateWithHistory';
 import UseStorage from './hooks/useStorage';
 import UseAsync from './hooks/useAsync';
+import UseFetch from './hooks/useFetch';
 
 function App() {
     return (
@@ -37,6 +38,9 @@ function App() {
             <br />
             <h1>UseAsync</h1>
             <UseAsync />
+            <br />
+            <h1>UseFetch</h1>
+            <UseFetch />
         </>
     );
 }

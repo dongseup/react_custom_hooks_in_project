@@ -7,7 +7,7 @@ export default function AsyncComponent() {
 
             setTimeout(() => {
                 success ? resolve('hi') : reject('Error');
-            }, 1000);
+            }, 5000);
         });
     });
 
