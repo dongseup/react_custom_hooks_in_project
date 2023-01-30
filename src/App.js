@@ -6,6 +6,7 @@ import UseArray from './hooks/useArray';
 import UsePrevious from './hooks/usePrevious';
 import UseStateWithHistory from './hooks/useStateWithHistory';
 import UseStorage from './hooks/useStorage';
+import UseAsync from './hooks/useAsync';
 
 function App() {
     return (
@@ -33,6 +34,9 @@ function App() {
             <br />
             <h1>useStorage</h1>
             <UseStorage />
+            <br />
+            <h1>UseAsync</h1>
+            <UseAsync />
         </>
     );
 }
