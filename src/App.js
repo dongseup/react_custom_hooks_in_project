@@ -11,6 +11,7 @@ import UseFetch from './hooks/useFetch';
 import UseScript from './hooks/useScript';
 import UseEventListener from './hooks/useEventListener';
 import UseOnScreen from './hooks/useOnScreen';
+import UseWindowSize from './hooks/useWindowSize';
 
 function App() {
     return (
@@ -53,6 +54,9 @@ function App() {
             <br />
             <h1>UseOnScreen</h1>
             <UseOnScreen />
+            <br />
+            <h1>UseWindowSize</h1>
+            <UseWindowSize />
         </>
     );
 }
