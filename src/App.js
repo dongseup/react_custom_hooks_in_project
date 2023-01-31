@@ -10,6 +10,7 @@ import UseAsync from './hooks/useAsync';
 import UseFetch from './hooks/useFetch';
 import UseScript from './hooks/useScript';
 import UseEventListener from './hooks/useEventListener';
+import UseOnScreen from './hooks/useOnScreen';
 
 function App() {
     return (
@@ -49,6 +50,9 @@ function App() {
             <br />
             <h1>useEventListener</h1>
             <UseEventListener />
+            <br />
+            <h1>UseOnScreen</h1>
+            <UseOnScreen />
         </>
     );
 }
