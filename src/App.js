@@ -9,6 +9,7 @@ import UseStorage from './hooks/useStorage';
 import UseAsync from './hooks/useAsync';
 import UseFetch from './hooks/useFetch';
 import UseScript from './hooks/useScript';
+import UseEventListener from './hooks/useEventListener';
 
 function App() {
     return (
@@ -45,6 +46,9 @@ function App() {
             <br />
             <h1>UseScript</h1>
             <UseScript />
+            <br />
+            <h1>useEventListener</h1>
+            <UseEventListener />
         </>
     );
 }
