@@ -12,6 +12,7 @@ import UseScript from './hooks/useScript';
 import UseEventListener from './hooks/useEventListener';
 import UseOnScreen from './hooks/useOnScreen';
 import UseWindowSize from './hooks/useWindowSize';
+import UseMediaQuery from './hooks/useMediaQuery';
 
 function App() {
     return (
@@ -57,6 +58,10 @@ function App() {
             <br />
             <h1>UseWindowSize</h1>
             <UseWindowSize />
+
+            <br />
+            <h1>UseMediaQuery</h1>
+            <UseMediaQuery />
         </>
     );
 }
