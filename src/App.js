@@ -13,6 +13,7 @@ import UseEventListener from './hooks/useEventListener';
 import UseOnScreen from './hooks/useOnScreen';
 import UseWindowSize from './hooks/useWindowSize';
 import UseMediaQuery from './hooks/useMediaQuery';
+import UseStateWithValidation from './hooks/useStateWithValidation';
 
 function App() {
     return (
@@ -62,6 +63,9 @@ function App() {
             <br />
             <h1>UseMediaQuery</h1>
             <UseMediaQuery />
+            <br />
+            <h1>UseStateWithValidation</h1>
+            <UseStateWithValidation />
         </>
     );
 }
