@@ -15,6 +15,7 @@ import UseWindowSize from './hooks/useWindowSize';
 import UseMediaQuery from './hooks/useMediaQuery';
 import UseStateWithValidation from './hooks/useStateWithValidation';
 import UseSize from './hooks/useSize';
+import UseEffectOnce from './hooks/useEffectOnce';
 
 function App() {
     return (
@@ -70,6 +71,9 @@ function App() {
             <br />
             <h1>UseSize</h1>
             <UseSize />
+            <br />
+            <h1>UseEffectOnce</h1>
+            <UseEffectOnce />
         </>
     );
 }
