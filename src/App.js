@@ -14,6 +14,7 @@ import UseOnScreen from './hooks/useOnScreen';
 import UseWindowSize from './hooks/useWindowSize';
 import UseMediaQuery from './hooks/useMediaQuery';
 import UseStateWithValidation from './hooks/useStateWithValidation';
+import UseSize from './hooks/useSize';
 
 function App() {
     return (
@@ -66,6 +67,9 @@ function App() {
             <br />
             <h1>UseStateWithValidation</h1>
             <UseStateWithValidation />
+            <br />
+            <h1>UseSize</h1>
+            <UseSize />
         </>
     );
 }
