@@ -16,6 +16,7 @@ import UseMediaQuery from './hooks/useMediaQuery';
 import UseStateWithValidation from './hooks/useStateWithValidation';
 import UseSize from './hooks/useSize';
 import UseEffectOnce from './hooks/useEffectOnce';
+import UseClickOutside from './hooks/useClickOutside';
 
 function App() {
     return (
@@ -74,6 +75,9 @@ function App() {
             <br />
             <h1>UseEffectOnce</h1>
             <UseEffectOnce />
+            <br />
+            <h1>UseClickOutside</h1>
+            <UseClickOutside />
         </>
     );
 }
