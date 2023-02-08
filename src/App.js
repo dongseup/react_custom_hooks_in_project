@@ -17,6 +17,7 @@ import UseStateWithValidation from './hooks/useStateWithValidation';
 import UseSize from './hooks/useSize';
 import UseEffectOnce from './hooks/useEffectOnce';
 import UseClickOutside from './hooks/useClickOutside';
+import UseDarkMode from './hooks/useDarkMode';
 
 function App() {
     return (
@@ -78,6 +79,9 @@ function App() {
             <br />
             <h1>UseClickOutside</h1>
             <UseClickOutside />
+            <br />
+            <h1>UseDarkMode</h1>
+            <UseDarkMode />
         </>
     );
 }
