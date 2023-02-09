@@ -23,6 +23,7 @@ export default function useCookie(name, defaultValue) {
             Cookies.remove(name);
             setValue(null);
         },
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         [name]
     );
 
