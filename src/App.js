@@ -18,6 +18,7 @@ import UseSize from './hooks/useSize';
 import UseEffectOnce from './hooks/useEffectOnce';
 import UseClickOutside from './hooks/useClickOutside';
 import UseDarkMode from './hooks/useDarkMode';
+import UseCopyToClipboard from './hooks/useCopyToClipboard';
 
 function App() {
     return (
@@ -82,6 +83,9 @@ function App() {
             <br />
             <h1>UseDarkMode</h1>
             <UseDarkMode />
+            <br />
+            <h1>UseCopyToClipboard</h1>
+            <UseCopyToClipboard />
         </>
     );
 }
