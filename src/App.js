@@ -19,6 +19,7 @@ import UseEffectOnce from './hooks/useEffectOnce';
 import UseClickOutside from './hooks/useClickOutside';
 import UseDarkMode from './hooks/useDarkMode';
 import UseCopyToClipboard from './hooks/useCopyToClipboard';
+import UseCookie from './hooks/useCookie';
 
 function App() {
     return (
@@ -86,6 +87,9 @@ function App() {
             <br />
             <h1>UseCopyToClipboard</h1>
             <UseCopyToClipboard />
+            <br />
+            <h1>UseCookie</h1>
+            <UseCookie />
         </>
     );
 }
