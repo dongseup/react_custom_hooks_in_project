@@ -22,6 +22,7 @@ import UseCopyToClipboard from './hooks/useCopyToClipboard';
 import UseCookie from './hooks/useCookie';
 import UseOnlineStatus from './hooks/useOnlineStatus';
 import UseRenderCount from './hooks/useRenderCount';
+import UseHover from './hooks/useHover';
 
 function App() {
     return (
@@ -98,6 +99,9 @@ function App() {
             <br />
             <h1>UseRenderCount</h1>
             <UseRenderCount />
+            <br />
+            <h1>UseHover</h1>
+            <UseHover />
         </>
     );
 }
